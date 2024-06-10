@@ -68,3 +68,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+//REACT kurimas
+npx create-react-app my-app
+npm start
+
+//BOOTSTRAP
+npm install react-bootstrap bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+npm install react-bootstrap-icons
+npm install reactstrap
+
+//SASS
+npm install sass
+
+//ROUTER
+npm i react-router-dom
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+//FIREBASE
+npm install firebase
+npm i react-firebase-hooks
+
+//REDUX
+npm i redux
+npm i react-redux
+
+//REACT GITHUB PAGES
+https://www.youtube.com/watch?v=4G6O0BIoq6M
+npm i gh-pages --save-dev
+npm run deploy
+    //prie package json virs name pridet
+    "homepage": "http://mykolas555.github.io/.....",
+    //prie scripts package json prideti 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
